@@ -1,0 +1,18 @@
+.card {
+  
+  margin: auto;
+  font-family: arial;
+
+  text-align: center;
+  justify-items: center;
+}
+div{
+  border-bottom: 3px rgb(83, 80, 80) solid;
+  padding: 20px;
+}
+
+img{
+  height: 100px;
+  width: 100px;
+  border-radius: 7px;
+}
