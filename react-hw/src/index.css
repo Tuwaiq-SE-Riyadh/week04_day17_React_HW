@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+
+.menu{
+  display: grid;
+  grid-template-rows: auto;
+  padding: 10px;
+  row-gap: 40px;
+  column-gap: 40px;
+}
+
+.card{
+  text-align: center;
+  display: grid;
+}
+
+ul{
+  text-align: center;
+    list-style-position: inside;
+}
+
+hr {
+  border: 1px solid rgb(0, 0, 0);
+  width: 100%;
+}
+
+.card img{
+  width: 200px;
+  height: 170px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+

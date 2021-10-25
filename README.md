@@ -7,3 +7,9 @@
 
 ### The output will be something similar to this:
 ![Output](Output.png)
+
+### The output screenshot:
+![Output](screenshot.png)
+
+
+
