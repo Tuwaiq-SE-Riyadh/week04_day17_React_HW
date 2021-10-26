@@ -8,7 +8,9 @@ function List(props) {
        <h4>User name: {props.name}</h4>
        <img src={props.image}></img>
        <h4>Tweets</h4>
-       <li>{ props.tweet}</li>
+       { props.tweet.map((ele,index)=>{
+          return <li>{ele}</li>
+       })}
     
 
      
