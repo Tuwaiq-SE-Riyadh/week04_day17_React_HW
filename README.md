@@ -1,9 +1,4 @@
-# React HW
+# React HW : Twitter app
+- Result : 
+![image](https://user-images.githubusercontent.com/72529306/139056557-813d26b0-b699-477a-8e62-f5d005e56799.png)
 
-### Twitter app
-* Create a react app.
-* Make Tweets Component that contain array of objects, each object will have name, image, array of Tweets.
-* You should display Tweets component in App component using map.
-
-### The output will be something similar to this:
-![Output](Output.png)
