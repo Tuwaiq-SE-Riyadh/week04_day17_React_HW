@@ -1,0 +1,17 @@
+.tweett_continer {
+  width: 100%;
+  max-width: 100%;
+  background: rgb(255, 255, 255);
+  border: 1px soli rgb(80, 80, 87);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imag_user {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
