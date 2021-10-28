@@ -9,17 +9,22 @@ function tweet() {
     {
       name: "fahad",
       img: avatar1,
-      array: ["be a game changer the world is already full of players"]
+      array: ["be a game changer the world is already full of players"],
     },
     {
       name: "Ahmad",
       img: avatar2,
-      array: ["“I’ve not failed. I’ve just found 10,000 ways that won’t work.” — Thomas Edison"],
+      array: [
+        "“I’ve not failed. I’ve just found 10,000 ways that won’t work.” — Thomas Edison",
+      ],
     },
     {
       name: "Saleh",
       img: avatar3,
-      array: ["If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough"],
+      array: [
+        "If you look at what you have in life, you'll always have more",
+        "be a game changer the world is already full of players",
+      ],
     },
     {
       name: "Faisal",
@@ -35,7 +40,12 @@ function tweet() {
       <div className="App-container">
         <p>Username: {element.name}</p>
         <img src={element.img} />
-        <p>Tweets: {element.array}</p>
+        <p>
+          Tweets:
+          {element.array.map((e) => {
+            return <p>{e}</p>;
+          })}
+        </p>
       </div>
     );
   });
