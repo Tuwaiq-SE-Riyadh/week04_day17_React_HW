@@ -1,25 +1,15 @@
 .tweet{
+    background-color: bisque;
     text-align: center;
     justify-content: center;
     color: rgb(7, 0, 0);
     margin-left: 30%;
     margin-right: 30%;
 }
-.TeetsArray{
-    color: black;
-  
-}
-.vartcal{
-    border-left:1pxsolid #000;
-    height:500px
-}
+
 img{
 height: 5pc;
 width: 5pc;
 
-}
-.tweetDes{
-    /* text-align: center; */
-   margin-right: 20px;
 }
 
