@@ -1,5 +1,5 @@
 import './tweet.css';
- 
+import Tweet from './componets/Tweet';
 import user1 from  './user1.png';
 import user2 from  './user2.png';
 import user3 from  './user3.png';
@@ -33,19 +33,16 @@ const list = [{
  
   return (
     <div className='tweet' >
-      {
-      list.map((element , index)=>{
-      return   <div kay={index}>
-        <img src={element.imageUser}/>
-        <br/>
-         {element.userName}
-         <br/>
-         {element.tweetData}
-         <hr/>
-        </div>
+      {list.map((element , index)=>{
+      return <Tweet 
+      keyIndex ={index}
+      elementImage={element.imageUser}
+     elementName={element.userName} 
+     elementData={element.tweetData} />
+       
       })
       }
-    
+
     </div>
   );
 }
