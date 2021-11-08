@@ -1,0 +1,9 @@
+.links {
+  display: flex;
+  gap: 3rem;
+}
+
+img {
+  max-width: 3%;
+  border-radius: 100%;
+  }
