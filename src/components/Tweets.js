@@ -1,4 +1,3 @@
-import react from "react";
 import TweetsList from "./TweetsList";
 
 function Tweets(props) {

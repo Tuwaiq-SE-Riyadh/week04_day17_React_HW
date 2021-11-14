@@ -1,7 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
 import Tweets from "./components/Tweets"
-import TweetsList from "./components/TweetsList"
 function App() {
   
 // array of objects
@@ -24,9 +22,9 @@ function App() {
   ]
   return (
     <div className="App">
-      <Tweets user = {obj[0]} ></Tweets>
-      <Tweets user = {obj[1]} ></Tweets>
-      <Tweets user = {obj[2]} ></Tweets>
+      {obj.map((element) => {
+        return <Tweets user = {element} ></Tweets>
+      })}
     </div>
   );
 }
