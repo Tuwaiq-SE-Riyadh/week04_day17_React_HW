@@ -1,9 +1,12 @@
-import logo from './logo.svg';
+import Tweets from './component/Tweets';
 import './App.css';
 
 function App() {
     return (
-0
+        <>
+      
+<Tweets/>
+</>
     );
 }
 
